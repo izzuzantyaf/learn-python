@@ -1,11 +1,11 @@
 """
 Written by Izzu Zantya Fawwas
+Website : izzuzantyaf.space
 Email : izzuzantyaf@gmail.com
 Github : https://github.com/izzuzantyaf
 Instagram : https://instagram.com/izzuzantyaf
 Twitter : https://twitter.com/izzuzantyaf
 Facebook : https://facebook.com/izzuzantyaf
-Tiktok : @izzuzantyaf
 """
 
 # Data type in Python
@@ -41,15 +41,15 @@ string = "This is a string"
 
 # 2.1 Accessing string
 # print the entire string
-print(string)
+print('string =', string)
 # print specific character in string
-print(string[2])  # print string at index 2
-print(string[-1])  # print the last char in string
+print('string[2] = ',string[2])  # print string at index 2
+print('string[-1] = ',string[-1])  # print the last char in string
 # print specific character in range
-print(string[: 4])  # 0<=index<4 (print from index 0 until 3)
-print(string[5: 7])  # 5<=index<7 (print from index 5 until 6)
-print(string[11:])  # 11<=index<=end (print from index 0 until end of string)
-print(string[-3:])  # print 3 char in string from the last
+print('string[:4] = ',string[: 4])  # 0<=index<4 (print from index 0 until 3)
+print('string[5:7] = ',string[5: 7])  # 5<=index<7 (print from index 5 until 6)
+print('string[11:] = ',string[11:])  # 11<=index<=end (print from index 0 until end of string)
+print('string[-3:] = ',string[-3:])  # print 3 char in string from the last
 
 # 2.2 String behaviour
 # the string itself is mutable (the value is changeable), but its elements is immutable
@@ -74,12 +74,12 @@ print('\n')
 print('4. List')
 x = [5, 10, 15, 50, 90, -26, 35, 40]
 # 4.1 Accessing List
-print(x[5])
-print(x[-1])
-print(x[3:5])
-print(x[:5])
-print(x[-3:])
-print(x[1:7:2])
+print('x[5] = ',x[5])
+print('x[-1] = ',x[-1])
+print('x[3:5] = ',x[3:5])
+print('x[:5] = ',x[:5])
+print('x[-3:] = ',x[-3:])
+print('x[1:7:2] = ',x[1:7:2])
 # end of List data type
 
 print('\n')
