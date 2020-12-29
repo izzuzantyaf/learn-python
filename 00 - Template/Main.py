@@ -1,4 +1,5 @@
-"""
+import os
+""" 
 Written by Izzu Zantya Fawwas
 Website : izzuzantyaf.space
 Email : izzuzantyaf@gmail.com
@@ -7,3 +8,5 @@ Instagram : https://instagram.com/izzuzantyaf
 Twitter : https://twitter.com/izzuzantyaf
 Facebook : https://facebook.com/izzuzantyaf
 """
+
+os.system('cls')
