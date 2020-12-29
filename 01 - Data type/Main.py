@@ -121,3 +121,44 @@ print(d)
 # Dict cannot accessed by index
 print(d['name'], ' is live on ', d['home'])
 # end of Dictionary data type
+
+print('\n')
+
+# convert one to another data type
+# string to number
+string = '10'
+print('Convert string %s to integer %d' % (string, int(string)))
+print('Convert string %s to float %f' % (string, float(string)))
+# number to string
+number = 10
+float_number = 10
+print('Convert integer %d to string %s' % (number, str(number)))
+print('Convert float %f to string %s' % (float_number, str(float_number)))
+
+print('\n')
+
+# convert to list
+string = '123'
+set = {1, 2, 3}
+tuple = (1, 2, 3)
+print('Convert string %s to list %s' % (string, list(string)))
+print('Convert set %s to list %s' % (set, list(set)))
+print('Convert tuple %s to list %s' % (tuple, list(tuple)))
+
+# convert to set
+list = [1, 2, 3]
+tuple = (1, 2, 3)
+print('Convert list %s to set %s' % (list, set(list)))
+print('Convert tuple %s to set %s' % (tuple, set(tuple)))
+
+# convert to tuple
+list = [1, 2, 3]
+set = (1, 2, 3)
+print('Convert list %s to tuple %s' % (list, tuple(list)))
+print('Convert set %s to tuple %s' % (set, tuple(set)))
+
+# convert to dictionary
+print(dict([[1, 2], [3, 4]]))
+
+# convert to dictionary
+print(dict([(1, 2), (3, 4)]))
